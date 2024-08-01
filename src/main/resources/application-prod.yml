@@ -1,0 +1,9 @@
+aws:
+  region: "us-east-1"
+  sns:
+    topicArn: ${SNS_TOPIC_ARN}
+  sqs:
+    queueUrl: ${SQS_QUEUE_ARN}
+  bucketName: ${BUCKET_NAME}
+  rekognition:
+    bucketName: ${BUCKET_NAME}
